@@ -21,4 +21,8 @@ const marker2 = L.marker([40.74214, -73.98807]).addTo(map)
 const marker3 = L.marker([56.0014, -3.404]).addTo(map)
 		.bindPopup('<b>Forth Bridge</b><br />  The first major structure in Britain to be made of steel.');
 
+const marker4 = L.marker([40.6892395, -74.0444653]).addTo(map)
+		.bindPopup('<b>Statue of Liberty</b><br />A colossal gift of friendship between two nations').openPopup();
+
+
 
